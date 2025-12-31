@@ -17,7 +17,7 @@ assert.ok(email, 'MANAN_EMAIL must be set in .env');
 assert.ok(password, 'MANAN_PASSWORD must be set in .env');
 
 // ----------------- Launch Manan App -----------------
-vibe.go('https://manan.numpyninja.com');
+vibe.go('Process.env.URL');
 console.log("Loaded Manan's website!");
 
 // ----------------- Login -----------------
